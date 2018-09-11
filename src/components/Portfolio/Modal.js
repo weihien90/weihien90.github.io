@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Modal = ({id, name, children, show}) => {
+import './modal.css';
+
+const Modal = ({id, name, children, show, onCloseModal}) => {
   if (!show) {
     return null;
   }
@@ -8,7 +10,7 @@ const Modal = ({id, name, children, show}) => {
   return (
     <div class="portfolio-modal mfp-hide" id={id}>
       <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="/">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#closeModal" onClick={onCloseModal}>
           <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
@@ -17,7 +19,7 @@ const Modal = ({id, name, children, show}) => {
               <h2 class="text-secondary text-uppercase mb-0">{name}</h2>
               <hr class="star-dark mb-5"/>
               {children}
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="/">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#closeModal" onClick={onCloseModal}>
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
