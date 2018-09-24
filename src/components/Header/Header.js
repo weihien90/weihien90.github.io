@@ -9,12 +9,15 @@ const Header = (props) => {
         <hr className="star-light mb-5"/>
         <div className="row">
           <div className="col-lg-4 ml-auto">
-            <p className="lead">Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Strong engineering professional graduated from Universiti Kebangsaan Malaysia.</p>
+            <p className="lead">
+              Greetings! My name is Wei Hien. 
+              I am an experienced Full Stack Web Developer who is passionate about every aspect of Web Technology.
+            </p>
           </div>
           <div className="col-lg-4 mr-auto">
             <ul className="lead">
               <li>PHP (Laravel)</li>
-              <li>Javascript (ReactJS)</li>
+              <li>Javascript (ReactJS, NodeJS)</li>
               <li>SQL</li>
               <li>Linux</li>
             </ul>
