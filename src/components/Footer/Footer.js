@@ -2,48 +2,32 @@ import React from 'react';
 
 const Footer = (props) => {
   return (
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">2215 John Daniel Drive
-              <br/>Clark, MO 65243</p>
+    <footer className="footer text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4 mb-5 mb-lg-0">
+            <h4 className="text-uppercase mb-4">Location</h4>
+            <p className="lead mb-0">Kuala Lumpur
+              <br/>Malaysia</p>
           </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="/">
-                  <i class="fa fa-fw fa-facebook"></i>
+          <div className="col-md-4 mb-5 mb-lg-0">
+            <h4 className="text-uppercase mb-4">Around the Web</h4>
+            <ul className="list-inline mb-0">
+              <li className="list-inline-item">
+                <a className="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/weihien90/">
+                  <i className="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="/">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="/">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="/">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="/">
-                  <i class="fa fa-fw fa-dribbble"></i>
+              <li className="list-inline-item">
+                <a className="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" rel="noopener noreferrer" href="https://medium.com/@weihien90/latest">
+                  <i className="fa fa-fw fa-medium"></i>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          <div className="col-md-4 mb-5 mb-lg-0">
+            <h4 className="text-uppercase mb-4">Email</h4>
+            <p className="lead mb-0">weihien90@gmail.com</p>
           </div>
         </div>
       </div>

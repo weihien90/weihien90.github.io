@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ScrollToTop = (props) => {
+const ScrollToTop = ({onScrollTop}) => {
   return (
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
+    <div className="scroll-to-top position-fixed" style={{display: 'block'}}>
+      <a className="js-scroll-trigger d-block text-center text-white rounded" href="#page-top" onClick={onScrollTop}>
+        <i className="fa fa-chevron-up"></i>
       </a>
     </div>
   );
